@@ -1,7 +1,7 @@
 #top{
   width: 800px;
   background-color: #dcc9f4;
-  padding: 20px 0px;
+  margin: 20px 0px;
   text-align: center;
 }
 .top-child{
@@ -42,6 +42,8 @@
   height: 300px;
   text-align: center;
   background-color: #87ceeb;
+  margin: 0 auto;
+  position: relative;
 }
 #bottom>div{
   width: 400px;
