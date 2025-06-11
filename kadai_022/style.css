@@ -37,6 +37,7 @@ h2::before {
 }
 div p:nth-of-type(2)::first-letter{
   color: rgb(97, 206, 249);
+  font-weight: bold;
 }
 img{
   margin: 10px 0px;
@@ -49,7 +50,7 @@ footer{
 a{
   color: rgb(255, 255, 255);
 }
-a:link{
+a:visited{
   color: rgb(193, 234, 251);
 }
 a:hover{
@@ -63,7 +64,7 @@ a:hover{
     font-size: 25px;
   }
   #parent{
-    display: block;
+    flex-direction: column;
   }
   
 }
